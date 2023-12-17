@@ -223,6 +223,13 @@ header a{
     margin: 20px 20px;
 }
 
+.titulo-mis-compras{
+    width: 95%;
+    display: flex;
+justify-content:center;
+margin-top: 25px;
+}
+
 .contenedor-principal{
     display: grid;
 
