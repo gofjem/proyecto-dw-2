@@ -120,93 +120,16 @@ header a{
     font-size: 1.5rem;
 }
 
-/* main index */
 
-.banner1{
-    background-image:url(../assets/img/bannerTest.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-shadow: -2px 3px 7px rgba(0,0,0,0.65);
-    text-align: center;
-    padding: 170px 0px;
-    margin: 20px 100px;
-}
 
-.banner1 h1{
-    
-    font-size: 5rem;
-    background-color: rgb(178, 240, 240);
+/* Imperdibles index */
+
+.row img{
+    width: 275px;
+    height: 300px;
     
 }
 
-/* Secciones index */
-
-.secciones{
-    
-    font-size: 2rem;
-}
-
-.secciones h2{
-    text-align: center;
-    padding: 20px 20px;
-
-}
-.secciones p{
-    font-size: 2rem;
-    margin: 10px;
-}
-
-.secciones img{
-    width: 200px;
-    
-}
-
-.contenedorSec{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #F5F7F8;
-    
-}
-
-.tecnologia{
-    background-color: #F5F7F8;
-    margin: 30px;
-}
-
-.construccion{
-    background-color: #F5F7F8;
-    margin: 30px;
-}
-
-.zapatos{
-    background-color: #F5F7F8;
-    margin: 30px;
-}
-
-.ropa{
-    background-color: #F5F7F8;
-    margin: 30px; 
-}
-
-.tendencia-item img{
-    height: 200px;
-    width: 150px;
-}
-
-
-/* Banner de promociones*/
-.banner2{
-    background-image: url(../assets/img/banner2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    padding: 170px 0px;
-    margin: 20px 100px;
-
-}
 /* ---- Ofertas ------- */
 .price{
     background-color: greenyellow;
