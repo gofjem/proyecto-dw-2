@@ -1,0 +1,44 @@
+/* ---------- MediaQ ------------ */
+
+/* -----Celulares----- */
+
+@media only screen and (max-width:480px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        width: 90%;
+    }
+
+    header nav ul{
+        justify-content: flex-start;
+        
+    }
+
+    header a{
+        font-size: 1.3rem;
+    }
+
+    /* --------- Mis compras ------- */
+    .contenedor-principal{
+        grid-template-areas: 
+        "imagen1 descrip1"
+        "estado1 estado1"
+        "imagen2 descrip2"
+        "estado2 estado2"
+        "imagen3 descrip3"
+        "estado3 estado3"
+        ;
+        grid-template-columns: 40% 50%;
+        grid-template-rows: repeat(6,200px);
+    }
+
+    /* -------- Footer ----------- */
+    .mapa{
+        display: none;
+    }
+
+    
+
+}

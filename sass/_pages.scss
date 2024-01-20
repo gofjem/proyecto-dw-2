@@ -1,0 +1,192 @@
+/* Imperdibles index */
+
+.row img{
+    width: 275px;
+    height: 300px;
+    
+}
+
+/* ---- Ofertas ------- */
+.card{
+    .price{
+        background-color: greenyellow;
+        color: black;
+        width: 60%;
+        align-items: end;
+    }
+
+}
+
+
+/* ---------- Mis Compras ------------ */
+
+.contenedor-principal{
+    img{
+        width: 60%;
+        height: 60%;
+        border-radius: 5px;
+        margin: 20px 20px;
+    }
+}
+
+.titulo-mis-compras{
+    width: 95%;
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+}
+
+/*Contenedor principal de Mis Compras en Grid*/
+
+.contenedor-principal{
+    display: grid;
+
+    /* definicion de areas */
+
+    grid-template-areas: 
+    "imagen1 descrip1  estado1"
+    "imagen2 descrip2  estado2"
+    "imagen3 descrip3  estado3"
+    ;
+    /* ancho columnas */
+    grid-template-columns: 1fr 2fr 25%;
+
+    /* alto de cada fila */
+    grid-template-rows: repeat(3,200px);
+
+    /* organizar el grid */
+    justify-content: center;
+
+    /* Espacio entre rows y columns */
+    row-gap: 2px;
+    column-gap: 2px;
+    
+    p{
+        text-align: justify;
+        margin: 50px 20px;
+        font-weight: 400;
+    }
+
+}
+
+.img-grid-1{
+    grid-area: imagen1;
+}
+
+.texto-descripcion-1{
+    grid-area: descrip1;
+}
+
+.estado-envio-1{
+    grid-area: estado1;
+    background-color: $colorHeader;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    border-radius: 24px;
+    padding-top: 35px;
+    padding-left: 150px;
+}
+
+.img-grid-2{
+    grid-area: imagen2;
+}
+
+.texto-descripcion-2{
+    grid-area: descrip2;
+}
+
+.estado-envio-2{
+    grid-area: estado2;
+    background-color: $colorHeader;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    border-radius: 24px;
+    padding-top: 35px;
+    padding-left: 150px;
+}
+
+.img-grid-3{
+    grid-area: imagen3;
+}
+
+.texto-descripcion-3{
+    grid-area: descrip3;
+}
+
+.estado-envio-3{
+    grid-area: estado3;
+    background-color: $colorHeader;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    border-radius: 24px;
+    padding-top: 35px;
+    padding-left: 150px;
+}
+
+/* ---------- Categorias -------- */
+
+.carousel-item{
+    
+    width: 100%;
+    height: 100%;
+    img{
+        height: 350px;
+        width: 450px;
+    }
+}
+
+.card{
+    img{
+        height: 175px;
+        width: 150px;
+    }
+}
+
+.container{
+    h1{
+        width: 100%;
+        align-items: end;
+    }
+}
+
+/* -----Favoritos ----- */
+
+.fav-prod{
+    width: 50px;
+    height: 75px;
+}
+
+/* ----- Iniciar sesion------ */
+body {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+
+    .form-floating:focus-within {
+        z-index: 2;
+      }
+    input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+      
+
+  .btn{
+    background-color: $colorBoton;
+  }
+}

@@ -1,0 +1,33 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+    height: 100%;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+/* variables */
+$colorHeader:#900C3F;
+$colorBoton:#3559E0;
+$colorFooter:#45474B;
