@@ -44,9 +44,9 @@
     /* definicion de areas */
 
     grid-template-areas: 
-    "imagen1 descrip1  estado1"
-    "imagen2 descrip2  estado2"
-    "imagen3 descrip3  estado3"
+    "imagen1 descrip1 estado1"
+    "imagen2 descrip2 estado2"
+    "imagen3 descrip3 estado3"
     ;
     /* ancho columnas */
     grid-template-columns: 1fr 2fr 25%;

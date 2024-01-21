@@ -1,6 +1,7 @@
 package-lock.json
 package.json
 wireframe.png
+node_modules
 /node_modules
 
 #Ignorar archivos del sistema MAC

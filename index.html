@@ -19,6 +19,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -26,7 +27,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./pages/categorias.html">Categorias</a>
-               </li>
+                </li>
                 <li class="nav-item">
                    <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
                 </li>
@@ -42,14 +43,16 @@
                   </a>
                 </li>
                  
-                </ul>
+              </ul>
+
                 <form class="d-flex" role="search">
                   <input class="form-control me-3" type="search" placeholder="¿Qué buscas?" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
-              </div>
+
             </div>
-          </nav>
+          </div>
+        </nav>
     </header>
      
       
@@ -92,25 +95,31 @@
       <div class="col-lg-4 mb-5">
         <img src="./assets/img/tecnologia.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Tecnologia</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>Sumergente en los nuevos lanzamientos tecnológicos y disfruta.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/construccion.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Construccion</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Encuentra todo lo que necesitas en materia de construccion.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/moda_mujer.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Moda Mujer</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>Vistete con las ultimas tendencias de la moda.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
      <!-- Banner secundario -->
-    <div id="carouselExample" class="carousel slide mb-5">
+   
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./assets/img/marcas.png" class="d-block w-100" alt="...">
@@ -122,11 +131,11 @@
           <img src="./assets/img/bannerTest.png" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -134,28 +143,34 @@
 
     <div class="row">
 
-      <div class="col-lg-4 mb-5">
+      <div class="col-lg-4 mb-5 mt-5">
         <img src="./assets/img/deporte_y_aire.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Deportes y Aire libre</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>Siente el sol  y el viento mientras haces tu deporte preferido al aire libre.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-5 mt-5">
         <img src="./assets/img/terrazas.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Jardin y Terrazas</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Disfruta de las mejores decoraciones para exteriores.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-5 mt-5">
         <img src="./assets/img/muebles_y_organizacion.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Muebles y Organización</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>Elige las mejores combinaciones para tu hpgar.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
     <!-- Banner secundario -->
-    <div id="carouselExample" class="carousel slide mb-5">
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./assets/img/verano.png" class="d-block w-100" alt="...">
@@ -167,11 +182,11 @@
           <img src="./assets/img/bannerTest.png" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -182,19 +197,19 @@
       <div class="col-lg-4 mb-5">
         <img src="./assets/img/dormitorio.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Dormitorio</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>Descansa como te mereces y encuentra los mejores productos para ello.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/vehiculos.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Automoviles</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Todo lo que necesitas para tu vehiculo, accesorios y más.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/bebes.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Bebés</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>Ten a la mano todo lo que tu bebé necesita</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
@@ -204,24 +219,31 @@
       <div class="col-lg-4 mb-5">
         <img src="./assets/img/belleza.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Belleza</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>Si necesitas algun cambio, aqui podras encontrarlo.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/electrodomesticos.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Electrodomesticos</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Equipa tu hogar con los mejores productos, con la mayor calidad y desempeño.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/salud_y_bienestar.png" class="img-thumbnail" alt="...">
         <h2 class="fw-normal">Salud y Bienestar</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>Cuidate a ti y tu familia para el futuro.</p>
         <p><a class="btn btn-secondary" href="#">Ver mas.. &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
-    <div id="carouselExample" class="carousel slide mb-5">
+    <!-- Banner final de pagina -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./assets/img/Tendencias.png" class="d-block w-100" alt="...">
@@ -230,14 +252,14 @@
           <img src="./assets/img/banner2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/bannerTest.png" class="d-block w-100" alt="...">
+          <img src="./assets/img/banner2.png" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
