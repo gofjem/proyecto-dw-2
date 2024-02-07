@@ -141,14 +141,17 @@
 .card{
     img{
         height: 175px;
-        width: 150px;
+        width: 100%;
+    }
+    .btn{
+        font-size: 4rem;
     }
 }
 
 .container{
     h1{
         width: 100%;
-        align-items: end;
+        
     }
 }
 
@@ -158,6 +161,7 @@
     width: 50px;
     height: 75px;
 }
+
 
 /* ----- Iniciar sesion------ */
 body {
